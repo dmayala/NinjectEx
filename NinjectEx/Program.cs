@@ -23,6 +23,7 @@ namespace NinjectEx
     class Samurai
     {
         readonly IWeapon weapon;
+        
         public Samurai(IWeapon weapon)
         {
             this.weapon = weapon;
